@@ -14,3 +14,29 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.brand h1,
+.brand img,
+svg {
+  cursor: pointer;
+}
+
+.brand h1 {
+  font-family: "Perpetua Titling MT";
+  font-weight: 300;
+}
+
+.navlinks a {
+  font-family: "Rubik";
+  font-size: 2rem;
+  margin: 0 1em;
+  color: gray;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.navlinks a:hover {
+  color: black;
+}
